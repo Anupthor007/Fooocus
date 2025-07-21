@@ -1,5 +1,5 @@
 <div align=center>
-<img src="https://github.com/lllyasviel/Fooocus/assets/19834515/483fb86d-c9a2-4c20-997c-46dafc124f25">
+#<img src="https://github.com/lllyasviel/Fooocus/assets/19834515/483fb86d-c9a2-4c20-997c-46dafc124f25">
 </div>
 
 # Fooocus
@@ -129,7 +129,7 @@ Thanks to [camenduru](https://github.com/camenduru) for the template!
 
 If you want to use Anaconda/Miniconda, you can
 
-    git clone https://github.com/lllyasviel/Fooocus.git
+    git clone https://github.com/Anupthor007/Fooocus
     cd Fooocus
     conda env create -f environment.yaml
     conda activate fooocus
@@ -151,7 +151,7 @@ Use `python entry_with_update.py --preset anime` or `python entry_with_update.py
 
 Your Linux needs to have **Python 3.10** installed, and let's say your Python can be called with the command **python3** with your venv system working; you can
 
-    git clone https://github.com/lllyasviel/Fooocus.git
+    git clone https://github.com/Anupthor007/Fooocus
     cd Fooocus
     python3 -m venv fooocus_env
     source fooocus_env/bin/activate
@@ -173,7 +173,7 @@ Use `python entry_with_update.py --preset anime` or `python entry_with_update.py
 
 If you know what you are doing, and your Linux already has **Python 3.10** installed, and your Python can be called with the command **python3** (and Pip with **pip3**), you can
 
-    git clone https://github.com/lllyasviel/Fooocus.git
+    git clone https://github.com/Anupthor007/Fooocus
     cd Fooocus
     pip3 install -r requirements_versions.txt
 
@@ -484,3 +484,5 @@ Or `run_realistic.bat` as
 For practical translation, you may create your own file like `Fooocus/language/jp.json` or `Fooocus/language/cn.json` and then use flag `--language jp` or `--language cn`. Apparently, these files do not exist now. **We need your help to create these files!**
 
 Note that if no `--language` is given and at the same time `Fooocus/language/default.json` exists, Fooocus will always load `Fooocus/language/default.json` for translation. By default, the file `Fooocus/language/default.json` does not exist.
+
+Note - This repo is copied from the repository (https://github.com/lllyasviel/Fooocus/) author does not reserves any rights or take ownership of code.
